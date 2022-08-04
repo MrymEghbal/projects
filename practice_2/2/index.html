@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+</head>
+
+<body>
+    <form action="">
+        <div class="form">
+
+            <div class="Name">
+                <p><label for="firstname">FirstName*</label><br>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your first name.." size="30">
+                </p>
+            </div>
+            <div class="Lastname">
+                <p><label for="lastame">LastName*</label><br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your last name.." size="30">
+                </p>
+            </div>
+            <div class="Birthday">
+                <p><label for="Birthday">Birthday*</label><br>
+                    <input type="date" id="Birthday" name="bday">
+            </div>
+            <div class="phone">
+                <p><label for="realphone">Phone*</label><br>
+                    <input type="text" id="realphone" name="realphone" inputmode="tel" placeholder="Your phone number.."
+                        size="30">
+                </p>
+            </div>
+            <div class="pass">
+                <p><label for="pass">passport*</label><br>
+                    <input type="text" id="pass" name="pass" placeholder="Your passport.." size="30">
+                </p>
+            </div>
+            <div class="fathername">
+                <p><label for="fathername">Father's Name*</label><br>
+                    <input type="text" id="fathername" name="fathername" inputmode="tel"
+                        placeholder="Your father's name.." size="30">
+                </p>
+            </div>
+            <div class="jensiat">
+                <p><label for="jen">Jender*</label><br>
+                    <label for="jenderother">other</label>
+                    <input id="jenderother" type="radio" name="gender" value="male" checked>
+                    <label for="jenderfemale">female</label>
+                    <input id="jenderfemale" type="radio" name="gender" value="female">
+                    <label for="jendermale">male</label>
+                    <input id="jendermale" type="radio" name="gender" value="other">
+                </p>
+            </div>
+            <div class="state">
+                <p><label for="state">State*</label><br>
+                    <select id="country" name="country">
+                        <option value="Tehran">Tehran</option>
+                        <option value="Fars">Fars</option>
+                        <option value="Esfahan">Esfahan</option>
+                        <option value="Gilan">Gilan</option>
+                        <option value="Lorstan">Lorastan</option>
+                        <option value="Kerman">Kerman</option>
+                        <option value="Yazd">Yazd</option>
+                    </select>
+                </p>
+            </div>
+            <div class="city">
+                <p><label for="city">City*</label><br>
+                    <select id="city" name="city">
+                        <option value="Tehran">Tehran</option>
+                        <option value="Shahryar">Shahryar</option>
+                        <option value="Eslamshahr">Eslamshahr</option>
+                        <option value="Varamin">Varamin</option>
+                        <option value="Damavand">Damavand</option>
+                        <option value="Shiraz">Shiraz</option>
+                        <option value="Larestan">Larestan</option>
+                        <option value="Marvdasht">Marvdasht</option>
+                        <option value="Esfahan">Esfahan</option>
+                        <option value="Kashan">Kashan</option>
+                        <option value="Najafabad">Najafabad</option>
+                        <option value="Rasht">Rasht</option>
+                        <option value="Talesh">Talesh</option>
+                        <option value="Kerman">Kerman</option>
+                        <option value="Rafsenjan">Rafsenjan</option>
+                        <option value="Yazd">Yazd</option>
+                    </select>
+                </p>
+            </div>
+            <input type="submit" value="Submit">
+
+        </div>
+    </form>
+</body>
+
+</html>
